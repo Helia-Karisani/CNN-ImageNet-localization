@@ -1,13 +1,13 @@
 # CNN-ImageNet-localization
 
-## 🧠 Object Localization with PyTorch
+## Object Localization with PyTorch
 
 This project demonstrates how to build and train a **Convolutional Neural Network (CNN)** for **object localization** — predicting the bounding box coordinates of an object in an image.
 It uses a pre-trained **EfficientNet-b0** backbone from the `timm` library and fine-tunes it for bounding box regression.
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
 
 ```
 .
@@ -21,11 +21,11 @@ It uses a pre-trained **EfficientNet-b0** backbone from the `timm` library and f
 
 ---
 
-### 🚀 How to Run
+### How to Run
 
 You can run this project directly in **Google Colab** or locally with Python.
 
-#### **1️⃣ Setup**
+#### **1 Setup**
 
 Install required packages:
 
@@ -35,7 +35,7 @@ Install required packages:
 !pip install opencv-python-headless
 ```
 
-#### **2️⃣ Unzip dataset**
+#### **2 Unzip dataset**
 
 If you’re using the GitHub version:
 
@@ -43,7 +43,7 @@ If you’re using the GitHub version:
 !unzip -q train_images.zip -d object-localization-dataset/
 ```
 
-#### **3️⃣ Open notebook**
+#### **3 Open notebook**
 
 Run all cells in:
 
@@ -60,7 +60,7 @@ The notebook handles:
 
 ---
 
-### 📊 Dataset
+### Dataset
 
 * The dataset is stored in `train_images.zip`
 * Each image’s bounding box coordinates are stored in `train.csv`
@@ -68,7 +68,7 @@ The notebook handles:
 
 ---
 
-### 🧩 Model
+### Model
 
 * **Backbone:** EfficientNet_b0 (from `timm`)
 * **Task:** Regression (predict bounding box coordinates)
@@ -76,14 +76,14 @@ The notebook handles:
 
 ---
 
-### 🏁 Output
+### Output
 
 * The trained model is saved as `best_model.pt`.
 * The notebook visualizes predicted bounding boxes on test images.
 
 ---
 
-### 📘 References
+### References
 
 * [EfficientNet: Rethinking Model Scaling for CNNs (Tan & Le, 2019)](https://arxiv.org/abs/1905.11946)
 * [PyTorch Image Models (timm)](https://github.com/huggingface/pytorch-image-models)
