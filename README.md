@@ -88,3 +88,4 @@ The notebook handles:
 * [EfficientNet: Rethinking Model Scaling for CNNs (Tan & Le, 2019)](https://arxiv.org/abs/1905.11946)
 * [PyTorch Image Models (timm)](https://github.com/huggingface/pytorch-image-models)
 * [Albumentations Documentation](https://albumentations.ai/docs/)
+
