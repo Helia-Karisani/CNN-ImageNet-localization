@@ -2,7 +2,7 @@
 
 ## Object Localization with PyTorch
 
-This project demonstrates how to build and train a **Convolutional Neural Network (CNN)** for **object localization** — predicting the bounding box coordinates of an object in an image.
+This project demonstrates how to build and train a **Convolutional Neural Network (CNN)** for **object localization**, predicting the bounding box coordinates of an object in an image.
 It uses a pre-trained **EfficientNet-b0** backbone from the `timm` library and fine-tunes it for bounding box regression.
 
 ---
